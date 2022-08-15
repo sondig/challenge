@@ -1,0 +1,36 @@
+.mediaMain {
+width: auto;
+border: 0.8px solid grey;
+border-radius: 10px;
+overflow: auto;
+margin-bottom: 20px;
+
+.mediaTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    svg{
+        cursor: pointer;       
+    }
+}
+.mediaSubtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    p{
+        font-size: 1rem;
+        margin-left: 2px;
+    }
+}
+.mediaActions
+{
+    display: flex;
+    justify-content: space-between;
+}
+}

@@ -1,0 +1,20 @@
+.footer {
+    min-height: auto;
+    background: linear-gradient(90deg, #454545 0%, #2b2b2b 91%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+@media (min-width: 968px) {
+    .footer {
+        min-height: 71px;
+    }
+}
+
+.footer div a span {
+    color: lightblue;
+}
